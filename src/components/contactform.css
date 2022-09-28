@@ -1,0 +1,55 @@
+.formbox{
+    height:80vh;
+    width:100%;
+    display:flex;
+    
+    justify-content: center;
+    background-color: white;
+}
+form p{
+    color:black;
+}
+.Contactform{
+    height:90%;
+    width:30%;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 3px 1px grey;
+    display:flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    align-items: center;
+}
+.Contactform input{
+    margin-top:3rem ;
+    height:3rem;
+    width:100%;
+    border-radius: 20px;
+    font-size: 1rem;
+    text-align: center;
+}
+.Contactform textarea{
+    margin-top: 3rem;
+    height:5rem;
+    width:100%;
+    font-size: 1rem;
+    text-align: center;
+}
+.Contactform .button{
+    margin-top: 3rem;
+    height:2.5rem;
+    width:40%;
+    background-color:black;
+    color:white;
+    border-radius: 20px;
+}
+.Contactform .button:hover{
+    background-color: transparent;
+    color:black;
+    transform:scale(0.9);
+}
+@media screen and (max-width:850px) {
+    .Contactform{
+        height: fit-content;
+        width:80%;
+    }
+}

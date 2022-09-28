@@ -1,0 +1,92 @@
+.Contentbox{
+    height:fit-content;
+    width:100%;
+    background-color:whitesmoke;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro{
+    height:fit-content;
+    width:40%;
+    background-color:whitesmoke;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 2px grey;
+}
+.introimg{
+    height:14rem;
+    width:14rem;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 2px grey;;
+}
+.aboutintro{
+    height:fit-content;
+    width:80%;
+    background-color:whitesmoke;
+    margin-top: 10px; 
+}
+.aboutintro h4{
+    line-height: 1.8rem;
+    color:black;
+}
+/*education box*/
+.Educationbox{
+    height:fit-content;
+    width:40%;
+    background-color: whitesmoke;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 5px 5px 5px 2px grey;
+}
+.Educationbox h1{
+    text-align: center;
+    text-decoration:underline ;
+    color:darkslategrey;
+    font-weight: bold;
+}
+.boxeslayout{
+    margin-top:1rem;
+}
+.boxes{
+    box-shadow: 0px 1px 0px 0px grey;
+    height:fit-content;
+    width:100%;
+    margin-top:20px;
+}
+.boxes h2 {
+    color:black;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+.boxescontent p,h4{
+    color:darkslategrey;
+    text-align:center;
+    line-height: 1.5rem;
+}
+/*experience*/
+.experience{
+    height:20rem;
+    width:40%;
+    box-shadow: 5px 5px 5px 2px gray;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:900px)  {
+    .introimg{
+        height:8rem;
+        width:8rem;
+        border-radius: 50%;
+    }
+    
+}
+@media screen and (max-width:450px){
+    .intro{
+        height:fit-content;
+        width:100%;
+    }
+    .Educationbox{
+        width:100%;
+    }
+}
